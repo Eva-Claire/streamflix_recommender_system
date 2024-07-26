@@ -27,6 +27,5 @@ The data utilised in this project is the Movielens dataset from GroupLens Resear
 The datasets were merged on the movieId column resulting in a DataFrame with 285783  rows and 11 columns. The data was sufficient in fulfilling our objectives although additional information such as actors, directors, production studio, runtime and user demographics would have provided more context and insights into user preferences and movie characteristics leading to better recommendations.
 
 ## Observations
-We decided  to investigate the distribution of ratings and genres and the following
 
  
