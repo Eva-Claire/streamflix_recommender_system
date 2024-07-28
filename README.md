@@ -1,6 +1,6 @@
 # STREAMFLIX MOVIE RECOMMENDATION SYSTEM
 
-
+![attachment:logo.png](logo.png)
 
 ### Authors - Group 10
 Evaclaire Wamitu - [Email](evamunyika@gmail.com)
@@ -30,5 +30,7 @@ The datasets were merged on the movieId column resulting in a DataFrame with 285
 
 ## Observations
 We decided  to investigate the distribution of ratings and genres and the following
+
+![attachment:logo.png](logo.png)
 
  
