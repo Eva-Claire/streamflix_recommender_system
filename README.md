@@ -8,7 +8,7 @@ Simon Makumi - [Email](simonmakumi5@gmail.com)
 
 ## BUSINESS UNDERSTANDING
 
-### Overview
+### Project Overview
 StreamFlix is developing a personalized movie recommendation system to enhance user experience and retention. The system uses collaborative filtering and content based filtering on the MovieLens dataset to provide tailored top 5 movie suggestions for each user. The system will analyze user ratings to generate recommendations using collaborative filtering techniques. New users will be onboarded through various rating collection methods to quickly build their preference profiles. By implementing this system, StreamFlix aims to create a more engaging and personalized viewing experience, ultimately leading to increased user satisfaction and improved business metrics.
 
 ### Business Problem
@@ -28,9 +28,12 @@ To develop and deploy a collaborative filtering-based recommendation system that
 The data utilised in this project is the Movielens dataset from GroupLens Research Lab covering movie ratings from 1902 to 2018. The dataset contains 100836 ratings and 3683 tag applications across 9742 movies with each user rating at least 20 films. While the full dataset contains 1.9 million ratings, we focussed on a subset of about 100,000 for our current model due to time and resource constraints. This sample size balances computational efficiency with statistical relevance for our recommendation engine development. The datasets include `links.csv`, `movies.csv`, `ratings.csv` and `tags.csv`. The following features were utilized  in the development of our recommendation system:  `movieId`, `userId_x`, `rating`, `title` and `genres`. 
 The datasets were merged on the movieId column resulting in a DataFrame with 285783  rows and 11 columns. The data was sufficient in fulfilling our objectives although additional information such as actors, directors, production studio, runtime and user demographics would have provided more context and insights into user preferences and movie characteristics leading to better recommendations.
 
-## Observations
+## Exploratory Data Analysis
+This involves systematically examining and summarizing the datasets to uncover patterns, trends and anomalies that can inform model development. This process includes visualizing the distribution of ratings, movie genres, and user activity to understand the dataset's characteristics. EDA also involves analyzing the relationships between features, such as the correlation between movie ratings and user demographics, to identify potential biases or data quality issues. By exploring these aspects, EDA helps in refining feature engineering, selecting relevant attributes, and ensuring the data is suitable for building and evaluating recommendation models. Overall, EDA is crucial for gaining insights that guide the development of more accurate and effective recommendation systems.
 We decided  to investigate the distribution of ratings and genres and the following
 
 ![attachment:logo.png](logo.png)
 
- 
+ ## Modeling
+ A collaborative based model was first developed using the Singular Value Decomposition algorithm
+ a content based model and a hybrid model were developed 
