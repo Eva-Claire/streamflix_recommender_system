@@ -47,6 +47,9 @@ TF-IDF vectorization and cosine similarity are then encapsulated within a `Conte
 The `HybridModel` class integrates collaborative filtering and content-based filtering using a weighted average to provide hybrid recommendations with user ratings guiding the process. After training both models, the system generates and prints a list of recommended movies based on user input. The hybrid model with a collab weight of 0.5 produces an RMSE of `1.25`.
 Different collaborative filtering weights are tested to determine their impact on the hybrid model's performance. starting from 0.2 up to 0.8, the RMSE values decrease indicating improved prediction accuracy. With a weight of `0.2` the RMSE is `1.2559` and with a weight of `0.4` it slightly improves to `1.2523`. The RMSE significantly drops to `1.1263` with a weight of `0.6` and further decreases to `1.1221` with a weight of `0.8`. This suggests that higher collaborative filtering weight tends to enhance the model's accuracy leading to lower prediction errors and helps in identifying the most effective balance between collaborative and content-based filtering.
 
+### Deployment
+Streamlit is a Python library used to create web applications for data science projects. In this case, streamlit is used to build an interactive movie recommendation system. The app uses a collaborative filtering model based on the `SVD` (singular value decomposition) algorithm from the Surprise library trained on user-movie ratings. Key features include displaying trending movies, personalized recommendations, movie search functionality and genre-based browsing. The app fetches movie posters from a TMDB API and attempts to show trailers using a YouTube API. The model demonstrates integration of machine learning models with a user-friendly interface including features like rating movies, receiving personalized recommendations and exploring movies by genre. 
+
 ### Conclusion
 The collaborative filtering model with an RMSE of 0.86 outperforms the hybrid model, which shows higher RMSE, suggesting that emphasizing collaborative filtering in a hybrid approach yields better accuracy and recommendation quality.
 
@@ -60,3 +63,51 @@ The collaborative filtering model with an RMSE of 0.86 outperforms the hybrid mo
 4. **Explore Advanced Techniques**: Integrate deep learning-based models and other advanced methods to further enhance the system's capabilities and address remaining limitations.
 
 5. **Incorporate User Feedback and Regular Updates**: Integrate user feedback and conduct real-world testing to validate the model's effectiveness ensuring it meets user preferences and expectations. Regularly update the recommendation system with new data and metrics to adapt to evolving user preferences and content.
+
+### Installation and Setup
+
+**Clone the repository**
+
+**https:**
+```
+git clone https://github.com/Eva-Claire/streamflix_recommender_system.git
+```
+**ssh:**
+```
+git@github.com:Eva-Claire/streamflix_recommender_system.git
+```
+**Navigate to the project directory**
+
+```
+cd streamflix_recommender_system.git
+```
+**Install dependencies**
+```
+pip install -r requirements.txt
+```
+**Execute the app on Streamlit**
+```
+streamlit run app.py
+```
+
+### Repository Setup
+
+```
+streamflix_movie_recommendation_system/
+│
+├── Cover Page/
+│   ├── Evaclaire M.
+│   └── Simon M.
+│
+└── Project Files/
+    ├── .ipynb_checkpoints/
+    ├── modelling_data/
+    ├── movies_data/
+    ├── project_images/
+    ├── .DS_Store
+    ├── README.md
+    ├── Streamflix_data_report.docx
+    ├── app.py
+    ├── logo.png
+    └── movie_recommendor.ipynb
+```
