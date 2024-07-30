@@ -1,0 +1,14 @@
+streamlit==1.37.0
+pandas==2.2.2
+numpy==1.26.4
+requests==2.32.3
+google-api-python-client==2.138.0
+scikit-learn==1.5.1
+scipy==1.13.1
+scikit-surprise==1.1.1
+google-auth==2.32.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==0.7.2
+httplib2==0.22.0
+python-dotenv==1.0.0
+
