@@ -4,6 +4,7 @@
 
 ### Authors - Group 10
 Evaclaire Wamitu - [Email](evamunyika@gmail.com)
+
 Simon Makumi - [Email](simonmakumi5@gmail.com)
 
 ### Project Overview
@@ -74,7 +75,7 @@ git clone https://github.com/Eva-Claire/streamflix_recommender_system.git
 ```
 **ssh:**
 ```
-git@github.com:Eva-Claire/streamflix_recommender_system.git
+git clone git@github.com:Eva-Claire/streamflix_recommender_system.git
 ```
 **Navigate to the project directory**
 
