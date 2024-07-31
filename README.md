@@ -111,7 +111,6 @@ streamflix_recommender_system/
     ├── app.py
     ├── logo.png
     ├── movie_recommendor.ipynb
-    ├── requirements.txt
-    └── ~$reamflix_data_report.docx
+    └── requirements.txt
       
 ```
