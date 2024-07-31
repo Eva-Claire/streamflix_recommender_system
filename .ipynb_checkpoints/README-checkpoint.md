@@ -29,15 +29,15 @@ n are split into lists for easier analysis. We then examine the properties of th
 ### Exploratory Data Analysis
 In this exploratory data analysis (EDA), we aim to uncover patterns, trends and relationships within our dataset using visualizations and statistical techniques. 
 
-Distribution of Ratings: The most common rating is 4.0 with about 25,000 movies, the distribution is positively skewed towards higher ratings.
+*Distribution of Ratings:* The most common rating is 4.0 with about 25,000 movies, the distribution is positively skewed towards higher ratings.
 
 ![png](project_images/distribution_of_ratings.png)
 
-Distribution of Genres: Drama is the most preffered genre with over 40,000 movies followed closely by comedy while niche genres like animation, war, IMAX, musical and Western appear to have fewer than 10,000 movies each.
+*Distribution of Genres:* Drama is the most preffered genre with over 40,000 movies followed closely by comedy while niche genres like animation, war, IMAX, musical and Western appear to have fewer than 10,000 movies each.
 
 ![png](project_images/distribution_of_movie_genres.png)
 
-Top 20 Rated Titles by Number of Ratings Plot: 'Forrest Gump' has the highest number of ratings followed by 'The Shawshank Redemption' and 'Pulp Fiction' with top-rated films having between 200 to nearly 300 ratings.
+*Top 20 Rated Titles by Number of Ratings Plot:* 'Forrest Gump' has the highest number of ratings followed by 'The Shawshank Redemption' and 'Pulp Fiction' with top-rated films having between 200 to nearly 300 ratings.
 
 ![png](project_images/top_20_rated_titles_by_num_of_ratings.png)
 
