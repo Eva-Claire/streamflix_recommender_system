@@ -6,9 +6,9 @@ google-api-python-client==2.138.0
 scikit-learn==1.5.1
 scipy==1.13.1
 scikit-surprise==1.1.1
-google-auth==2.32.0
+google-auth==2.31.0
 google-auth-httplib2==0.2.0
-google-auth-oauthlib==0.7.2
+google-auth-oauthlib==0.4.6
 httplib2==0.22.0
 python-dotenv==1.0.0
 
