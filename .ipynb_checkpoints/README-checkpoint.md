@@ -98,7 +98,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### Repository Setup
+### Repository Structure
 
 ```
 streamflix_recommender_system/
@@ -111,9 +111,13 @@ streamflix_recommender_system/
     ├── .ipynb_checkpoints/
     ├── modelling_data/
     ├── movies_data/
+    ├── pickle_files/
     ├── project_images/
     ├── .DS_Store
+    ├── .gitignore
     ├── README.md
+    ├── Recommender_system.pdf
+    ├── Recommender_system.pptx
     ├── Streamflix_data_report.docx
     ├── app.py
     ├── logo.png
