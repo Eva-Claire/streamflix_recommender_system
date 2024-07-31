@@ -228,9 +228,9 @@ def main():
     elif page == 'About':
         st.header('📚 About Streamflix')
         st.write(
-            "Streamflix is a movie recommendation system that combines collaborative filtering and content-based methods "
+            "Streamflix is a movie recommendation system that utilizes collaborative filtering methods "
             "to provide personalized movie suggestions. Our system uses your ratings and movie genres to recommend "
-            "movies you might enjoy. Explore top trending movies, get personalized recommendations, and search for "
+            "movies you might enjoy. Explore top trending movies, get personalized recommendations and search for "
             "your favorite films all in one place.")
 
         st.subheader('Developers')
