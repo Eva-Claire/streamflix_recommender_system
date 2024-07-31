@@ -94,7 +94,7 @@ streamlit run app.py
 ### Repository Setup
 
 ```
-streamflix_movie_recommendation_system/
+streamflix_recommender_system/
 │
 ├── Cover Page/
 │   ├── Evaclaire M.
@@ -111,4 +111,6 @@ streamflix_movie_recommendation_system/
     ├── app.py
     ├── logo.png
     └── movie_recommendor.ipynb
+    
+    
 ```
