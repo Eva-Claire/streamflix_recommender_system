@@ -49,7 +49,7 @@ The `HybridModel` class integrates collaborative filtering and content-based fil
 Different collaborative filtering weights are tested to determine their impact on the hybrid model's performance. starting from 0.2 up to 0.8, the RMSE values decrease indicating improved prediction accuracy. With a weight of `0.2` the RMSE is `1.2559` and with a weight of `0.4` it slightly improves to `1.2523`. The RMSE significantly drops to `1.1263` with a weight of `0.6` and further decreases to `1.1221` with a weight of `0.8`. This suggests that higher collaborative filtering weight tends to enhance the model's accuracy leading to lower prediction errors and helps in identifying the most effective balance between collaborative and content-based filtering.
 
 ### Streamlit Application
-Streamlit is a Python library used to create web applications for data science projects. In this case, streamlit is used to build an interactive movie recommendation system. The app uses a collaborative filtering model based on the `SVD` (singular value decomposition) algorithm from the Surprise library trained on user-movie ratings. Key features include displaying trending movies, personalized recommendations, movie search functionality and genre-based browsing. The app fetches movie posters from a TMDB API and attempts to show trailers using a YouTube API. The model demonstrates integration of machine learning models with a user-friendly interface including features like rating movies, receiving personalized recommendations and exploring movies by genre.
+Streamlit is a Python library used to create web applications for data science projects. In this case, streamlit is used to build an interactive movie recommendation system. The app uses a collaborative filtering model based on the `SVD` (singular value decomposition) algorithm from the Surprise library trained on user-movie ratings. Key features include displaying trending movies, personalized recommendations, movie search functionality and genre-based browsing. The app fetches movie posters from a TMDB API and attempts to show trailers using a YouTube API. Below are snippets of the application prior to deployment:
 
 *Home page*
 ![png](streamlit_app_images/home_page.png)
@@ -72,7 +72,11 @@ The collaborative filtering model with an RMSE of 0.86 outperforms the hybrid mo
 
 5. **Incorporate User Feedback and Regular Updates**: Integrate user feedback and conduct real-world testing to validate the model's effectiveness ensuring it meets user preferences and expectations. Regularly update the recommendation system with new data and metrics to adapt to evolving user preferences and content.
 
+### Deployment
+Check out the live demo of the Streamflix application here: [![Streamflix Recommender System](https://img.shields.io/badge/Streamflix-App-brightgreen)](https://streamflixrecommendersystem.streamlit.app/)
+
 ### Installation and Setup
+To run the application locally, follow the following steps:
 
 **Clone the repository**
 
