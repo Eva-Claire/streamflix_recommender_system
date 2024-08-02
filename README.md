@@ -73,7 +73,7 @@ The collaborative filtering model with an RMSE of 0.86 outperforms the hybrid mo
 5. **Incorporate User Feedback and Regular Updates**: Integrate user feedback and conduct real-world testing to validate the model's effectiveness ensuring it meets user preferences and expectations. Regularly update the recommendation system with new data and metrics to adapt to evolving user preferences and content.
 
 ### Deployment
-Check out the live demo of the Streamflix application here: [![Streamflix Recommender System](https://img.shields.io/badge/Streamflix-App-brightgreen)](https://streamflixrecommendersystem.streamlit.app/)
+Check out the live demo of the Streamflix application here: [![Streamflix Recommender System](https://img.shields.io/badge/Streamflix-App-brightgreen)](https://eva-claire-streamflix-recommender-system-app-owstvv.streamlit.app/)
 
 ### Installation and Setup
 To run the application locally, follow the following steps:
