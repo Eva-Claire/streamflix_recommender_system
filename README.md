@@ -3,9 +3,9 @@
 ![attachment:logo.png](logo.png)
 
 ### Authors - Group 10
-Evaclaire Wamitu - [Email](evamunyika@gmail.com)
+Evaclaire Wamitu - [Email](evamunyika@gmail.com) | [LinkedIn](https://www.linkedin.com/in/evaclaire-munyika-991295114)
 
-Simon Makumi - [Email](simonmakumi5@gmail.com)
+Simon Makumi - [Email](simonmakumi5@gmail.com) | [LinkedIn](https://www.linkedin.com/in/simon-makumi-5550a12b5)
 
 ### Project Overview
 StreamFlix, a leading online streaming platform, is embarking on a project to revolutionize its user experience through the implementation of a hybrid movie recommendation system. Faced with challenges in user retention and engagement, as well as user overwhelm due to an extensive movie library, StreamFlix aims to leverage the power of data science to provide personalized movie suggestions. This initiative follows the CRISP-DM methodology and utilizes both collaborative filtering and content-based filtering techniques applied to the MovieLens dataset. The primary objective of this project is to develop and deploy an accurate hybrid recommendation system that can effectively predict user preferences and output a tailored list of top 5 movie recommendations. StreamFlix anticipates to not only enhance user engagement and retention but to also set a new standard in the streaming industry for tailored content delivery.
