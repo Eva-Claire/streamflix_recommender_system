@@ -5,7 +5,7 @@ requests==2.32.3
 google-api-python-client==2.138.0
 scikit-learn==1.5.1
 scipy==1.13.1
-scikit-surprise==1.1.1
+scikit-surprise==1.1.4
 google-auth==2.31.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==0.4.6
